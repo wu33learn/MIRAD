@@ -1,8 +1,6 @@
-# MIRAD
-MIRAD - A comprehensive real-world robust anomaly detection dataset for Mass Individualization
-# SPot-the-Difference Self-Supervised Pre-training for Anomaly Detection and Segmentation
+# MIRAD - A comprehensive real-world robust anomaly detection dataset for Mass Individualization
 
-Yang Zou, Jongheon Jeong, Latha Pemula, Dongqing Zhang, Onkar Dabeer.
+Pulin Li, Guocheng Wu, Yanjie Zhou, Yuxin Zheng, Wei Zhang.
 
 ## Table of Contents
 * [Introduction](#introduction)
@@ -14,7 +12,9 @@ Yang Zou, Jongheon Jeong, Latha Pemula, Dongqing Zhang, Onkar Dabeer.
 * [License](#license)
 
 ## Introduction
-This repository contains the resources for our ECCV-2022 paper ["SPot-the-Difference Self-Supervised Pre-training for Anomaly Detection and Segmentation"](https://arxiv.org/pdf/2207.14315.pdf). Currently we release the Visual Anomaly (VisA) dataset. 
+This repository contains the resources for our paper ["MIRAD - A comprehensive real-world robust anomaly detection dataset for Mass Individualization"](https://arxiv.org/pdf/2207.14315.pdf). Currently we release the Visual Anomaly (VisA) dataset. 
+
+
 
 ## Data description
 ![](figures/VisA_samples.png)
