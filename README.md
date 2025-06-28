@@ -6,13 +6,11 @@ Pulin Li, Guocheng Wu, Yanjie Zhou, Yuxin Zheng, Wei Zhang.
 * [Introduction](#introduction)
 * [Data description](#data-description)
 * [Data download](#data-download)
-* [Data preparation](#data-preparation)
-* [Metric computation](#metric-computation)
-* [Citation](#citation)
+* [Experimental results](#experimental-results)
 * [License](#license)
 
 ## Introduction
-This repository contains the resources for our paper ["MIRAD - A comprehensive real-world robust anomaly detection dataset for Mass Individualization"](https://arxiv.org/pdf/2207.14315.pdf). MIRAD represents a hybrid scenario bridging single class and multi class anomaly detection paradigms. Currently we release the Mass Individualization Robust Anomal Detection (MIRAD) dataset. 
+This repository contains the resources for our paper ["MIRAD - A comprehensive real-world robust anomaly detection dataset for Mass Individualization"]. MIRAD represents a hybrid scenario bridging single class and multi class anomaly detection paradigms. Currently we release the Mass Individualization Robust Anomal Detection (MIRAD) dataset. 
 ![](figures/new_challenges.png)
 
 
@@ -58,19 +56,8 @@ Performance on the MIRAD dataset reveals notable limitations. Single-class metho
 ![](figures/zero.png)
 Although AnomalyCLIP (Zhou et al., 2024) and AdaCLIP (Cao et al., 2024) have been pre-trained on auxiliary datasets such as MVTec AD(Bergmann et al., 2019) and VisA (Zou et al., 2022), they still fell short on the MIRAD benchmark. The unified representations of normality and abnormality learned from conventional datasets may fail to generalize to MIRAD, where individualized normal features vary widely across instances. Consequently, MIRAD emerges as a valuable counterpart to traditional mass-production benchmarks, more accurately reflecting the complexities of decentralized, individualized manufacturing.
 
-## 
 
-## Citation
-Please cite the following paper if this dataset helps your project:
 
-```bibtex
-@article{zou2022spot,
-  title={MIRAD - A comprehensive real-world robust anomaly detection dataset for Mass Individualization},
-  author={Zou, Yang and Jeong, Jongheon and Pemula, Latha and Zhang, Dongqing and Dabeer, Onkar},
-  journal={arXiv preprint arXiv:2207.14315},
-  year={2022}
-}
-```
 
 ## License
 The data is released under the CC BY 4.0 license.
