@@ -56,7 +56,7 @@ Performance on the MIRAD dataset reveals notable limitations. Single-class metho
 
 ### zero-shot approaches
 ![](figures/zero.png)
-
+Although AnomalyCLIP (Zhou et al., 2024) and AdaCLIP (Cao et al., 2024) have been pre-trained on auxiliary datasets such as MVTec AD(Bergmann et al., 2019) and VisA (Zou et al., 2022), they still fell short on the MIRAD benchmark. The unified representations of normality and abnormality learned from conventional datasets may fail to generalize to MIRAD, where individualized normal features vary widely across instances. Consequently, MIRAD emerges as a valuable counterpart to traditional mass-production benchmarks, more accurately reflecting the complexities of decentralized, individualized manufacturing.
 
 ## 
 
