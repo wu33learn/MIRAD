@@ -47,7 +47,7 @@ MIRAD
 ```
 
  
-## Experimental Results
+## Experimental results
 Based on MIRAD, we explore how existing anomaly detection models perform when confronted with the individualized products, as well as their robustness to imaging heterogeneity across distributed production nodes. Specially, we evaluate three kinds of approaches on MIRAD dataset, including single-class, multi-class and zero-shot detection models, providing a foundation for future analyses.
 ### single and multi-class approches
 ![](figures/single_multi.png)
@@ -65,7 +65,7 @@ Please cite the following paper if this dataset helps your project:
 
 ```bibtex
 @article{zou2022spot,
-  title={SPot-the-Difference Self-Supervised Pre-training for Anomaly Detection and Segmentation},
+  title={MIRAD - A comprehensive real-world robust anomaly detection dataset for Mass Individualization},
   author={Zou, Yang and Jeong, Jongheon and Pemula, Latha and Zhang, Dongqing and Dabeer, Onkar},
   journal={arXiv preprint arXiv:2207.14315},
   year={2022}
