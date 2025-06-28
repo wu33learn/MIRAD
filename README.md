@@ -24,21 +24,8 @@ The MIRAD dataset bridges the gap between laboratory research and practical qual
 
 
 ![](figures/Individualized_designs_and_defect.png)
-| Object | # normal samples | # anomaly samples  | # anomaly classes | object type | 
-|---|--------------|----------------|----------|-----------|
-| PCB1 | 1,004 | 100 | 4 | Complex structure |
-| PCB2 | 1,001 | 100 | 4 | Complex structure |
-| PCB3 | 1,006 | 100 | 4 | Complex structure |
-| PCB4 | 1,005 | 100 | 7 | Complex structure |
-| Capsules | 602 | 100 | 5 | Multiple instances |
-| Candles | 1,000 | 100 | 8 | Multiple instances |
-| Macaronis1 | 1,000 | 100 | 7 | Multiple instances |
-| Macaronis2 | 1,000 | 100 | 7 | Multiple instances |
-| Cashew | 500 | 100 | 9 | Single instance |
-| Chewing gum | 503 | 100 | 6 | Single instance |
-| Fryum | 500 | 100 | 8 | Single instance |
-| Pipe fryum | 500 | 100 | 9 | Single instance |
 
+![](figures/Statistical_overview.png)
 
 
 ## Data download
