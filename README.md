@@ -12,7 +12,7 @@ Pulin Li, Guocheng Wu, Yanjie Zhou, Yuxin Zheng, Wei Zhang.
 * [License](#license)
 
 ## Introduction
-This repository contains the resources for our paper ["MIRAD - A comprehensive real-world robust anomaly detection dataset for Mass Individualization"](https://arxiv.org/pdf/2207.14315.pdf). Currently we release the Visual Anomaly (VisA) dataset. 
+This repository contains the resources for our paper ["MIRAD - A comprehensive real-world robust anomaly detection dataset for Mass Individualization"](https://arxiv.org/pdf/2207.14315.pdf). Currently we release the Mass Individualization Robust Anomal Detection (MIRAD) dataset. 
 
 
 
