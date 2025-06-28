@@ -46,41 +46,11 @@ MIRAD
 |-----|----- ...
 ```
 
-image_annot.csv gives image-level label and pixel-level annotation mask for each image. The id2class map functions for multi-class masks can be found in [./utils/id2class.py](https://github.com/amazon-research/spot-diff/blob/main/utils/id2class.py) Here the masks for normal images are not stored to save space.
-
-## Data preparation
-To prepare the 1-class, 2-class-highshot, 2-class-fewshot setups described in the [original paper](https://arxiv.org/pdf/2207.14315.pdf), we use the [./utils/prepare_data.py](https://github.com/amazon-research/spot-diff/blob/main/utils/prepare_data.py) to reorganize data following the data splitting files in "./split_csv/". We give a sample command line for 1-class setup preparation as follows.
-~~~~
-python ./utils/prepare_data.py --split-type 1cls --data-folder ./VisA --save-folder ./VisA_pytorch --split-file ./split_csv/1cls.csv
-~~~~
-
-The data tree of the reorganized 1-class setup is as follows.
-```shell
-VisA_pytorch
-|-- 1cls
-|-----|--- candle
-|-----|-----|----- ground_truth
-|-----|-----|----- test
-|-----|-----|-------|------- good 
-|-----|-----|-------|------- bad 
-|-----|-----|----- train
-|-----|-----|-------|------- good
-|-----|--- capsules
-|-----|--- ...
-```
-
-Specifically, the reorganized data for 1-class setup follows the data tree of [MVTec-AD](https://www.mvtec.com/company/research/datasets/mvtec-ad/). For each object, the data has three folders:
-
-- 'train', which includes the normal training images
-- 'test', which includes the normal and anomalous test images
-- 'ground_truth', which includes the pixel-level annotations of anomalous images
-
-Note that the multi-class ground-truth segmentation masks in the original dataset are reindexed to binary masks where 0 indicates normality and 255 indicates anomaly. 
-
-In addition, the 2-class setups can be prepared in a similar way by changing the arguments of prepare_data.py.  
-
+ 
 ## Metrics computation
-To compute classification and segmentation metrics, please refer to [./utils/metrics.py](https://github.com/amazon-research/spot-diff/blob/main/utils/metrics.py). Note that we take the normal samples into account when computing the localization metrics. This is different from some of the other works disregarding the normal samples in localization.
+Based on MIRAD, we explore how existing anomaly detection models perform when confronted with the individualized products, as well as their robustness to imaging heterogeneity across distributed production nodes. Specially, we evaluate three kinds of approaches on MIRAD dataset, including single-class, multi-class and zero-shot detection models, providing a foundation for future analyses.
+
+
 
 ## Citation
 Please cite the following paper if this dataset helps your project:
