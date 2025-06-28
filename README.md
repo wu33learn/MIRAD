@@ -19,8 +19,11 @@ This repository contains the resources for our paper ["MIRAD - A comprehensive r
 ## Data description
 
 
-The VisA dataset contains 12 subsets corresponding to 12 different objects as shown in the above figure. There are 10,821 images with 9,621 normal and 1,200 anomalous samples. Four subsets are different types of printed circuit boards (PCB) with relatively complex structures containing transistors, capacitors, chips, etc. For the case of multiple instances in a view, we collect four subsets: Capsules, Candles, Macaroni1 and Macaroni2. Instances in Capsules and Macaroni2 largely differ in locations and poses. Moreover, we collect four subsets including Cashew, Chewing gum, Fryum and Pipe fryum, where objects are roughly aligned. The anomalous images contain various flaws, including surface defects such as scratches, dents, color spots or crack, and structural defects like misplacement or missing parts. 
+MIRAD, comprising 10 categories of individualized products, encompasses three design paradigms, including geometrically complex components (Geometric Blocks, Buttons), numerically and symbolically encoded items (Number Blocks with Arabic numerals, mathematical symbols), and stylized artifacts (Rabbit Pendants, Magnetic Bookmarks). Each product category offers diverse options in color, shape, pattern, and size, covering one or even all three design paradigms.It specifically incorporates multi-object inspection scenarios where two or more individualized products coexist within single frames. The MIRAD dataset comprises 2398 defect-free training images and 2391 test samples, with 1737 test images containing pixel-level annotated defects. Distributed production nodes employ diverse motion and illumination strategies, different camera specifications , and node-specific background, collectively mirroring the diversity of real-world dis manufacturing networks. Both surface defects and logical flaws are captured under node-specific imaging conditions.
+The MIRAD dataset bridges the gap between laboratory research and practical quality control in mass individualization under the context of social manufacturing. 
 
+
+![](figures/Individualized_designs_and_defect.png)
 | Object | # normal samples | # anomaly samples  | # anomaly classes | object type | 
 |---|--------------|----------------|----------|-----------|
 | PCB1 | 1,004 | 100 | 4 | Complex structure |
@@ -35,6 +38,8 @@ The VisA dataset contains 12 subsets corresponding to 12 different objects as sh
 | Chewing gum | 503 | 100 | 6 | Single instance |
 | Fryum | 500 | 100 | 8 | Single instance |
 | Pipe fryum | 500 | 100 | 9 | Single instance |
+
+
 
 ## Data download
 
