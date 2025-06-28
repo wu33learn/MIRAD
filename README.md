@@ -30,20 +30,19 @@ The MIRAD dataset bridges the gap between laboratory research and practical qual
 
 ## Data download
 
-We host the VisA dataset in AWS S3 and you can download it by this [URL](https://amazon-visual-anomaly.s3.us-west-2.amazonaws.com/VisA_20220922.tar). 
+We host the MIRAD dataset in AWS S3 and you can download it by this [URL](https://amazon-visual-anomaly.s3.us-west-2.amazonaws.com/VisA_20220922.tar). 
 
 The data tree of the downloaded data is as follows.
 ```shell
-VisA
-|-- candle
-|-----|--- Data
-|-----|-----|----- Images
-|-----|-----|--------|------ Anomaly 
-|-----|-----|--------|------ Normal 
-|-----|-----|----- Masks
-|-----|-----|--------|------ Anomaly 
-|-----|--- image_anno.csv
-|-- capsules
+MIRAD
+|-- building_block
+|-----|--- train
+|-----|-----|----- good
+|-----|--- test
+|-----|-----|----- good
+|-----|-----|----- anomaly
+|-----|--- ground_truth
+|-- chain_buckle
 |-----|----- ...
 ```
 
