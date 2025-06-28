@@ -49,8 +49,10 @@ MIRAD
  
 ## Metrics computation
 Based on MIRAD, we explore how existing anomaly detection models perform when confronted with the individualized products, as well as their robustness to imaging heterogeneity across distributed production nodes. Specially, we evaluate three kinds of approaches on MIRAD dataset, including single-class, multi-class and zero-shot detection models, providing a foundation for future analyses.
-
-
+### single and multi-class approches
+![](figures/single_multi.png)
+### zero-shot approaches
+![](figures/zero.png)
 
 ## Citation
 Please cite the following paper if this dataset helps your project:
