@@ -12,7 +12,7 @@ Pulin Li, Guocheng Wu, Yanjie Zhou, Yuxin Zheng, Wei Zhang.
 * [License](#license)
 
 ## Introduction
-This repository contains the resources for our paper ["MIRAD - A comprehensive real-world robust anomaly detection dataset for Mass Individualization"](https://arxiv.org/pdf/2207.14315.pdf). Currently we release the Mass Individualization Robust Anomal Detection (MIRAD) dataset. 
+This repository contains the resources for our paper ["MIRAD - A comprehensive real-world robust anomaly detection dataset for Mass Individualization"](https://arxiv.org/pdf/2207.14315.pdf). MIRAD represents a hybrid scenario bridging single class and multi class anomaly detection paradigms. Currently we release the Mass Individualization Robust Anomal Detection (MIRAD) dataset. 
 ![](figures/new_challenges.png)
 
 
@@ -47,12 +47,18 @@ MIRAD
 ```
 
  
-## Metrics computation
+## Experimental Results
 Based on MIRAD, we explore how existing anomaly detection models perform when confronted with the individualized products, as well as their robustness to imaging heterogeneity across distributed production nodes. Specially, we evaluate three kinds of approaches on MIRAD dataset, including single-class, multi-class and zero-shot detection models, providing a foundation for future analyses.
 ### single and multi-class approches
 ![](figures/single_multi.png)
+Performance on the MIRAD dataset reveals notable limitations. Single-class methods achieved only 76.2% I-AUROC, whereas multi-class approaches scored an even lower score of 71.1%. In contrast, both single-class and multi-class frameworks reached approximately 98% I-AUROC on MVTec AD and around 93% on VisA. This significant performance drop highlights the increased difficulty of defect detection in social manufacturing settings. 
+
+
 ### zero-shot approaches
 ![](figures/zero.png)
+
+
+## 
 
 ## Citation
 Please cite the following paper if this dataset helps your project:
