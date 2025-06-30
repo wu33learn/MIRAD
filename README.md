@@ -28,7 +28,7 @@ The MIRAD dataset bridges the gap between laboratory research and practical qual
 
 ## Data download
 
-We host the MIRAD dataset in AWS S3 and you can download it by this [URL](https://drive.google.com/file/d/1-4aMEtiTvk77Oo-oNW6WdPPuxpfHRKwq/view?usp=sharing). 
+We host the MIRAD dataset in Google drive and you can download it by this [URL](https://drive.google.com/file/d/1-4aMEtiTvk77Oo-oNW6WdPPuxpfHRKwq/view?usp=sharing). 
 
 The data tree of the downloaded data is as follows.
 ```shell
