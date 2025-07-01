@@ -1,6 +1,6 @@
 # MIRAD - A comprehensive real-world robust anomaly detection dataset for Mass Individualization
 
-Pulin Li, Guocheng Wu, Yanjie Zhou, Yuxin Zheng, Wei Zhang.
+Pulin Li, Guocheng Wu, Li Yin, Yanjie Zhou, Yuxin Zheng, Wei Zhang.
 
 ## Table of Contents
 * [Introduction](#introduction)
